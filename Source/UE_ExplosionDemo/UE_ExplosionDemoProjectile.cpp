@@ -38,6 +38,6 @@ void AUE_ExplosionDemoProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* Ot
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
 
-		Destroy();
+		//Destroy();
 	}
 }
